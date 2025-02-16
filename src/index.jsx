@@ -1,8 +1,7 @@
-/* eslint-disable react-refresh/only-export-components */
 import { createRoot } from 'react-dom/client'
 import reactLogo from './react-logo.png';
 
-const root = createRoot(document.getElementById('root')!) // ! = it won't be null
+const root = createRoot(document.getElementById('root'))
 
 function Main() {
     return (
