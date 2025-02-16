@@ -1,50 +1,24 @@
-# React + TypeScript + Vite
+# React Facts
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple list of facts about React. 
 
-Currently, two official plugins are available:
+## Setup and Run
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
+- Node.js: Ensure Node.js is installed on your machine. You can download it from [Node.js website](https://nodejs.org/).
 
-## Expanding the ESLint configuration
+### Installation
+1. Clone the repository: `git clone https://github.com/chiarazetaa/react-facts.git`
+2. Open terminal and ensure you are using Node.js version 20: `node --version` (If not, install or switch to Node.js version 20)
+3. Navigate to the project directory: `cd react-facts`
+4. Install dependencies: `npm i`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Run the Application
+2. Start the project navugating to the main folder and run `npm run dev`.
+3. Open your web browser and go to http://localhost:5173/.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Contact Information
+Chiara Zuffi
+- Email: chiara.zuffi19@gmail.com
+- GitHub: https://github.com/chiarazetaa
+- LinkedIn: https://www.linkedin.com/in/zuffichiara/
